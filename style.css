@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Roboto:wght@700&display=swap");
+.name {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigcontainer {
+  display: flex;
+}
+.left {
+  width: 40vw;
+  position: relative;
+  top: 100px;
+}
+.right {
+  width: 60vw;
+}
+.nav {
+  background-color: #bc4749;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-name {
+  width: 60vw;
+  line-height: 3px;
+  color: aliceblue;
+}
+.contact {
+  padding-left: 50px;
+}
+.soft {
+  padding-left: 50px;
+}
+.education {
+  padding: 5px;
+}
+.hard {
+  padding-left: 50px;
+}
+.project {
+  padding: 20px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://github.com/rahul9369/img/blob/main/1679111597192.png?raw=true");
+  position: absolute;
+  left: 150px;
+  top: 20px;
+}
+.footer {
+  height: 20px;
+  background-color: #bc4749;
+}
